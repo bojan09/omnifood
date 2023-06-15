@@ -16,6 +16,7 @@ module.exports = {
         shadeColor: "#cf711f",
         greenDarkColor: "#51cf66",
         greenLightColor: "#94d82d",
+        colorText: "#333333",
       },
       screens: {
         xs: "350px",
