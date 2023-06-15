@@ -67,11 +67,13 @@ const Navbar = () => {
               onClick={() => setToggle(!toggle)}
               className="font-medium text-colorText hover:text-primaryColor mb-4 text-xl"
             >
-              <a onClick={() => setToggle(!toggle)} href="#testimonials">
-                Testimonials
-              </a>
+              <a>Testimonials</a>
             </li>
-            <li className="font-medium text-colorText hover:text-primaryColor mb-4 text-xl">
+            <li
+              onClick={() => setToggle(!toggle)}
+              href="#testimonials"
+              className="font-medium text-colorText hover:text-primaryColor mb-4 text-xl"
+            >
               <a href="#pricing">Pricing</a>
             </li>
             <li
