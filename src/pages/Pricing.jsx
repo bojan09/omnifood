@@ -11,9 +11,9 @@ const Pricing = () => {
       </div>
 
       {/* Main - Container*/}
-      <div className="md:flex justify-center items-center gap-12 ">
+      <div className="md:flex justify-center items-center w-[40vw] mx-auto">
         {/* Starter - Container*/}
-        <div className="border-[.5px] border-secondaryBackground rounded-xl flex flex-col justify-center items-center xs:w-[80vw] md:w-[350px] mx-auto p-[3rem] mb-[4rem]">
+        <div className="border-[.5px] border-secondaryBackground rounded-xl flex flex-col justify-center items-center xs:w-[85vw] md:w-[350px] p-[4rem] mb-[4rem]">
           <h1 className="uppercase text-primaryColor text-xl font-medium">
             Starter
           </h1>
@@ -42,7 +42,7 @@ const Pricing = () => {
         </div>
 
         {/* Complete - Container*/}
-        <div className="border-[.5px] border-secondaryBackground bg-primaryBackground rounded-xl flex flex-col justify-center items-center xs:w-[80vw] md:w-[350px] mx-auto p-[3rem] mb-[4rem] relative overflow-hidden">
+        <div className="bg-primaryBackground rounded-xl flex flex-col justify-center items-center xs:w-[85vw] md:w-[350px] mx-auto p-[3rem] mb-[4rem] relative overflow-hidden">
           <span className="bg-yellow-300 font-medium uppercase py-1 px-8 absolute top-0 right-0 rotate-[45deg] translate-x-9 translate-y-7 ">
             best value
           </span>
