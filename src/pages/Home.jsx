@@ -68,8 +68,8 @@ const Home = () => {
             alt="customer_img"
           />
           <p className="px-5 text-center">
-            <span className="text-primaryColor">250,000+</span> meals delivered
-            last year!
+            <span className="text-primaryColor font-medium">250,000+</span>{" "}
+            meals delivered last year!
           </p>
         </div>
       </div>
