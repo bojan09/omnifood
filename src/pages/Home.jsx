@@ -19,13 +19,13 @@ const Home = () => {
         <h1 className="xs:text-[35px] md:text-[52px] font-medium text-center px-5 xs:py-4 md:leading-[55px] md:text-start">
           A healthy meal delivered to your door, every single day
         </h1>
-        <p className="px-5 text-center text-[16px] md:text-[18px] md:text-start ">
+        <p className="px-5 py-2 xs:py-5 text-center text-[16px] md:text-[18px] md:text-start ">
           The smart 365-days-per-year food subscription that will make you eat
           healthy again. Tailored to your personal tastes and nutritional needs.
         </p>
 
         {/* Buttons */}
-        <div className="flex gap-4 py-4 md:ml-5">
+        <div className="flex justify-center items-center gap-4 py-4 xs:py-[3rem] md:ml-5">
           <button className="bg-primaryColor hover:bg-shadeColor transition-all duration-500 ease-in-out text-white py-3 px-2 rounded-lg font-medium">
             <a href="#contact">Start eating well again</a>
           </button>
@@ -35,7 +35,7 @@ const Home = () => {
         </div>
 
         {/* Delivered/Customers Tab  */}
-        <div className="flex justify-evenly md:items-center px-4 py-4">
+        <div className="flex md:items-center px-4 py-4">
           {/* Customers img tab  */}
           <img
             className="rounded-full border-white border-[5px] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75"
@@ -43,27 +43,27 @@ const Home = () => {
             alt="customer_img"
           />
           <img
-            className="rounded-full border-white border-[5px] ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
+            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
             src={deliveredImage2}
             alt="customer_img"
           />
           <img
-            className="rounded-full border-white border-[5px] ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
+            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
             src={deliveredImage3}
             alt="customer_img"
           />
           <img
-            className="rounded-full border-white border-[5px] ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
+            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
             src={deliveredImage4}
             alt="customer_img"
           />
           <img
-            className="rounded-full border-white border-[5px] ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
+            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
             src={deliveredImage5}
             alt="customer_img"
           />
           <img
-            className="rounded-full border-white border-[5px] ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
+            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
             src={deliveredImage6}
             alt="customer_img"
           />
@@ -75,8 +75,8 @@ const Home = () => {
       </div>
 
       {/* Right side - Container */}
-      <div className="md:flex-1 flex justify-center items-center   px-12 py-[3rem]">
-        <img src={heroImage} alt="hero_img" className="w-[600px]" />
+      <div className="md:flex-1 flex justify-center items-center md:px-12 xs:px-5 py-[3rem]">
+        <img src={heroImage} alt="hero_img" className="md:w-[600px]" />
       </div>
     </div>
   );
