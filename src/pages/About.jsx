@@ -7,18 +7,18 @@ import vegeterian_paleo_meal from "../assets/meals/meal-2.jpg";
 const About = () => {
   return (
     <div id="about" className="max-w-[1200px] mx-auto mt-[2rem] mb-[5rem]">
-      <h2 className="text-center uppercase text-primaryColor text-lg pl-[2rem] pb-[1rem]">
+      <h2 className="text-center uppercase text-primaryColor text-lg pb-[1rem]">
         MEALS
       </h2>
 
-      <h1 className="text-center font-semibold text-3xl md:text-[2.5rem] md:mb-[9rem] md:mt-[2rem]">
+      <h1 className="text-center font-semibold text-3xl md:text-[2.5rem] md:mb-[4rem] md:mt-[2rem]">
         Omnifood AI chooses from 5,000+ recipes
       </h1>
 
       {/* Main - Container */}
-      <div className="flex xs:flex-col justify-center items-center mt-[3rem]">
+      <div className="flex md:flex-row md:gap-[4rem] xs:flex-col justify-center items-center mt-[3rem]">
         {/* Container -- 1 */}
-        <div className="w-[300px] mb-[3.5rem] shadow-md rounded-lg pb-4">
+        <div className="w-[300px] mb-[3.5rem] shadow-md rounded-lg pb-4 scale-100 hover:scale-110 transition-all duration-300 ease-in">
           {/* Meal - Image */}
           <img
             src={vegeterian_meal}
@@ -44,17 +44,17 @@ const About = () => {
         </div>
 
         {/* Container -- 2 */}
-        <div className="w-[300px] mb-[3.5rem] shadow-md rounded-lg pb-4">
+        <div className="w-[300px] mb-[3.5rem] shadow-md rounded-lg pb-4 scale-100 hover:scale-110 transition-all duration-300 ease-in">
           {/* Meal - Image */}
           <img
             src={vegeterian_paleo_meal}
             alt="vegeterian_paleo_meal"
             className="rounded-t-lg"
           />
-          <div>
+          <div className="p-4">
             {/* Meal - Category */}
-            <div className="p-4">
-              <span className="bg-greenLightColor py-[4px] px-[8px] rounded-xl uppercase text-[12px] text-white font-medium">
+            <div>
+              <span className="bg-greenLightColor py-[4px] px-[8px] rounded-xl uppercase text-[12px] text-white font-medium mr-2">
                 vegeterian
               </span>
               <span className="bg-secondaryColor py-[4px] px-[8px] rounded-xl uppercase text-[12px] text-white font-medium">
@@ -65,7 +65,7 @@ const About = () => {
             <h2 className="text-xl font-semibold my-4 px-4">Avocado Salad</h2>
 
             {/* Meal - Description */}
-            <div className="flex flex-col justify-center gap-4 pl-6 pb-[1rem]">
+            <div className="flex flex-col justify-center gap-4 pl-6">
               <p className="font-light xs:text-[15px]">400 calories</p>
               <p className="font-light xs:text-[15px]">NutriScore ® 92</p>
               <p className="font-light xs:text-[15px]">4.8 rating (441)</p>
@@ -79,15 +79,33 @@ const About = () => {
           <h1 className="font-semibold text-xl mb-5">Works with any diet:</h1>
           {/* Other choices  */}
           <div className="flex flex-col justify-center items-center gap-4 mb-[4rem]">
-            <p className="font-light xs:text-[15px]">Vegetarian</p>
-            <p className="font-light xs:text-[15px]">Vegan</p>
-            <p className="font-light xs:text-[15px]">Pescatarian</p>
-            <p className="font-light xs:text-[15px]">Gluten-free</p>
-            <p className="font-light xs:text-[15px]">Lactose-free</p>
-            <p className="font-light xs:text-[15px]">Keto</p>
-            <p className="font-light xs:text-[15px]">Paleo</p>
-            <p className="font-light xs:text-[15px]">Low FODMAP</p>
-            <p className="font-light xs:text-[15px]">Kid-friendly</p>
+            <p className="font-light xs:text-[15px] scale-100 hover:scale-110 transition-all duration-300 ease-in">
+              Vegetarian
+            </p>
+            <p className="font-light xs:text-[15px] scale-100 hover:scale-110 transition-all duration-300 ease-in">
+              Vegan
+            </p>
+            <p className="font-light xs:text-[15px] scale-100 hover:scale-110 transition-all duration-300 ease-in">
+              Pescatarian
+            </p>
+            <p className="font-light xs:text-[15px] scale-100 hover:scale-110 transition-all duration-300 ease-in">
+              Gluten-free
+            </p>
+            <p className="font-light xs:text-[15px] scale-100 hover:scale-110 transition-all duration-300 ease-in">
+              Lactose-free
+            </p>
+            <p className="font-light xs:text-[15px] scale-100 hover:scale-110 transition-all duration-300 ease-in">
+              Keto
+            </p>
+            <p className="font-light xs:text-[15px] scale-100 hover:scale-110 transition-all duration-300 ease-in">
+              Paleo
+            </p>
+            <p className="font-light xs:text-[15px] scale-100 hover:scale-110 transition-all duration-300 ease-in">
+              Low FODMAP
+            </p>
+            <p className="font-light xs:text-[15px] scale-100 hover:scale-110 transition-all duration-300 ease-in">
+              Kid-friendly
+            </p>
           </div>
         </div>
       </div>
