@@ -31,8 +31,13 @@ const Navbar = () => {
             <li className="font-medium text-colorText hover:text-primaryColor">
               <a href="#pricing">Pricing</a>
             </li>
-            <li className="font-medium text-white py-2 px-4 bg-primaryColor rounded-lg hover:bg-shadeColor cursor-pointer">
-              <a href="#contact">Try for free</a>
+            <li>
+              <a
+                className="font-medium text-white py-2 px-4 bg-primaryColor rounded-lg hover:bg-shadeColor cursor-pointer"
+                href="#contact"
+              >
+                Try for free
+              </a>
             </li>
           </ul>
         </nav>

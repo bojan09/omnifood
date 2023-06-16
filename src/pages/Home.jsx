@@ -26,11 +26,21 @@ const Home = () => {
 
         {/* Buttons */}
         <div className="flex justify-center items-center gap-4 py-4 xs:py-[3rem] md:ml-5">
-          <button className="bg-primaryColor hover:bg-shadeColor transition-all duration-500 ease-in-out text-white py-3 px-2 rounded-lg font-medium">
-            <a href="#contact">Start eating well again</a>
+          <button>
+            <a
+              className="bg-primaryColor hover:bg-shadeColor transition-all duration-500 ease-in-out text-white py-3 px-2 rounded-lg font-medium"
+              href="#contact"
+            >
+              Start eating well again
+            </a>
           </button>
-          <button className="bg-white  hover:text-primaryColor transition-all duration-500 ease-in-out py-3 px-2 rounded-lg font-medium">
-            <a href="#howItWorks">Learn more ↓</a>
+          <button>
+            <a
+              className="bg-white  hover:text-primaryColor transition-all duration-500 ease-in-out py-3 px-2 rounded-lg font-medium"
+              href="#howItWorks"
+            >
+              Learn more ↓
+            </a>
           </button>
         </div>
 
