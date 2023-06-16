@@ -4,7 +4,15 @@ import React from "react";
 import { Navbar, Footer } from "./components";
 
 // pages
-import { Home, Sponsors, HowItWorks, About, Pricing, Contact } from "./pages";
+import {
+  Home,
+  Sponsors,
+  HowItWorks,
+  About,
+  Testimonials,
+  Pricing,
+  Contact,
+} from "./pages";
 
 const App = () => {
   return (
@@ -14,6 +22,7 @@ const App = () => {
       <Sponsors />
       <HowItWorks />
       <About />
+      <Testimonials />
       <Pricing />
       <Contact />
       <Footer />
