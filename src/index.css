@@ -118,3 +118,9 @@ select {
     background-color: #fae5d3;
     z-index: -1;
 }
+
+.contact-img {
+    background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35));
+    background-size: cover;
+    background-position: center;
+}
