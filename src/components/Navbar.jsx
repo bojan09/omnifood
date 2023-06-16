@@ -9,7 +9,7 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="bg-secondaryBackground  p-6 px-8 md:px-[8rem]">
+    <div className="bg-primaryBackground  p-6 px-8 md:px-[8rem] sticky top-0">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <a href="#">
@@ -41,7 +41,7 @@ const Navbar = () => {
         <nav className="md:hidden xs:relative ">
           <img
             src={!toggle ? menu : close}
-            className="fixed top-4 right-7  w-[40px] h-[40px] object-contain cursor-pointer "
+            className="fixed top-4 right-7 w-[35px] h-[35px] object-contain cursor-pointer "
             alt="nav menu"
             onClick={() => setToggle(!toggle)}
           />
