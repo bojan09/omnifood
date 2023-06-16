@@ -11,7 +11,7 @@ const Pricing = () => {
       </div>
 
       {/* Main - Container*/}
-      <div className="md:flex justify-center items-center w-[40vw] mx-auto">
+      <div className="md:flex justify-center items-center md:w-[40vw] mx-auto">
         {/* Starter - Container*/}
         <div className="border-[.5px] border-secondaryBackground rounded-xl flex flex-col justify-center items-center xs:w-[85vw] md:w-[350px] p-[4rem] mb-[4rem]">
           <h1 className="uppercase text-primaryColor text-xl font-medium">

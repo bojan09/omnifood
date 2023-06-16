@@ -21,9 +21,9 @@ const App = () => {
       <Home />
       <Sponsors />
       <HowItWorks />
-      <About />
       <Testimonials />
       <Pricing />
+      <About />
       <Contact />
       <Footer />
     </div>
