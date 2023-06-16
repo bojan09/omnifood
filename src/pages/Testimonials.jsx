@@ -122,7 +122,7 @@ const Testimonials = () => {
       id="testimonials"
       className="pt-[2rem] pb-[5rem] bg-primaryBackground md:flex items-center"
     >
-      <div className="xs:pl-8 md:pl-[7rem] flex-1">
+      <div className="xs:pl-8 lg:pl-[7rem] flex-1">
         <h2 className="text-primaryColor md:text-xl uppercase mt-[2rem]">
           TESTIMONIALS
         </h2>
@@ -131,15 +131,15 @@ const Testimonials = () => {
         </h1>
 
         {/* People Testimonials */}
-        <div className="md:w-[50vw] md:flex flex-wrap gap-[4rem]">
+        <div className="lg:w-[50vw] md:flex flex-wrap gap-[4rem]">
           {people.map((person) => (
             <div key={person.id}>
               <img
                 src={person.img}
                 alt="person.img"
-                className="w-[50px] md:w-[70px] rounded-full mt-[2rem] "
+                className="w-[50px] lg:w-[70px] rounded-full mt-[2rem] "
               />
-              <p className="w-[86vw] md:text-lg text-[15px] py-4 font-light text-gray-600 md:w-[20vw]">
+              <p className="w-[86vw] lg:text-lg text-[15px] py-4 font-light text-gray-600 md:w-[20vw]">
                 {person.description}
               </p>
               <p className="py-3 text-gray-600">
@@ -151,11 +151,11 @@ const Testimonials = () => {
         </div>
       </div>
       {/* Gallery Testimonials */}
-      <div className="flex-1 mt-[3rem] flex md:flex-row md:flex-wrap xs:flex-col  justify-center items-center gap-4">
+      <div className="flex-1 mt-[3rem] flex flex-row flex-wrap justify-center items-center gap-4">
         {imageGallery.map((image) => (
           <div
             key={image.id}
-            className="md:w-[250px] xs:w-[80vw] overflow-hidden shadow-md rounded-md"
+            className=" lg:w-[250px] md:w-[200px] xs:w-[25vw] overflow-hidden shadow-md rounded-md"
           >
             <img
               src={image.img}
