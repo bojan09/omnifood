@@ -6,6 +6,7 @@
 
 /* Base reset */
 
+
 /* Box sizing rules */
 *,
 *::before,
@@ -75,4 +76,10 @@ select {
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
+}
+
+
+.sponsors_img_filter {
+    filter: brightness(0);
+    opacity: 50%;
 }
