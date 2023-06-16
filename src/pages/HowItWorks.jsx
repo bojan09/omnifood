@@ -19,12 +19,15 @@ const HowItWorks = () => {
       {/* Main container -- 1*/}
       <div className="my-[3rem] flex flex-col-reverse">
         {/* Left container -- text */}
-        <div className="">
+        <div className="px-[1.5rem]">
           {/* Number */}
-          <p>01</p>
+          <p className="text-[5rem] font-semibold text-gray-200">01</p>
           {/* Heading secondary */}
-          <h2>Tell us what you like (and what not)</h2>
-          <p>
+          <h2 className="my-3 text-[19px] font-semibold">
+            Tell us what you like <br />
+            (and what not)
+          </h2>
+          <p className="font-thin">
             Never again waste time thinking about what to eat! Omnifood AI will
             create a 100% personalized weekly meal plan just for you. It makes
             sure you get all the nutrients and vitamins you need, no matter what
@@ -45,12 +48,14 @@ const HowItWorks = () => {
         </div>
 
         {/* Left container -- text */}
-        <div>
+        <div className="px-[1.5rem]">
           {/* Number */}
-          <p>02</p>
+          <p className="text-[5rem] font-semibold text-gray-200">02</p>
           {/* Heading secondary */}
-          <h2>Approve your weekly meal plan</h2>
-          <p>
+          <h2 className="my-3 text-[19px] font-semibold">
+            Approve your weekly meal plan
+          </h2>
+          <p className="font-thin ">
             Once per week, approve the meal plan generated for you by Omnifood
             AI. You can change ingredients, swap entire meals, or even add your
             own recipes.
@@ -61,12 +66,14 @@ const HowItWorks = () => {
       {/* Main container -- 3  */}
       <div className=" my-[3rem] flex flex-col-reverse">
         {/* Left container -- text */}
-        <div>
+        <div className="px-[1.5rem]">
           {/* Number */}
-          <p>03</p>
+          <p className="text-[5rem] font-semibold text-gray-200">03</p>
           {/* Heading secondary */}
-          <h2>Receive meals at convenient time</h2>
-          <p>
+          <h2 className="my-3 text-[19px] font-semibold">
+            Receive meals at convenient time
+          </h2>
+          <p className="font-thin ">
             Best chefs in town will cook your selected meal every day, and we
             will deliver it to your door whenever works best for you. You can
             change delivery schedule and address daily!
