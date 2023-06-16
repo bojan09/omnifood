@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div
       id="#"
-      className="bg-primaryBackground md:flex justify-evenly md:px-[20rem] md:pt-[2rem] md:pb-[3rem]"
+      className="bg-primaryBackground md:flex justify-evenly lg:px-[20rem] md:pt-[2rem] md:pb-[3rem]"
     >
       <div className="md:flex flex-col gap-6 xs:pt-5 md:flex-1">
         <h1 className="xs:text-[35px] md:text-[52px] font-medium text-center px-5 xs:py-4 md:leading-[55px] md:text-start">
@@ -48,32 +48,32 @@ const Home = () => {
         <div className="flex md:items-center px-4 py-4">
           {/* Customers img tab  */}
           <img
-            className="rounded-full border-white border-[5px] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75"
+            className="rounded-full border-white border-[5px] md:w-[60x] md:h-[40px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75"
             src={deliveredImage1}
             alt="customer_img"
           />
           <img
-            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
+            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-.9rem] md:w-[60x] md:h-[40px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
             src={deliveredImage2}
             alt="customer_img"
           />
           <img
-            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
+            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-.9rem] md:w-[60x] md:h-[40px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
             src={deliveredImage3}
             alt="customer_img"
           />
           <img
-            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
+            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-.9rem] md:w-[60x] md:h-[40px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
             src={deliveredImage4}
             alt="customer_img"
           />
           <img
-            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
+            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-.9rem] md:w-[60x] md:h-[40px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
             src={deliveredImage5}
             alt="customer_img"
           />
           <img
-            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-1.5rem] md:w-[60x] md:h-[50px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
+            className="rounded-full border-white border-[5px] xs:ml-[-.7rem] md:ml-[-.9rem] md:w-[60x] md:h-[40px] xs:w-[40px] h-[40px] hover:scale-105 transition-all ease-in-out duration-75 "
             src={deliveredImage6}
             alt="customer_img"
           />
