@@ -9,7 +9,7 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="bg-primaryBackground  p-6 px-8 md:px-[8rem] sticky top-0 z-10">
+    <div className="bg-primaryBackground  py-[2.7rem] px-8 md:px-[8rem] sticky top-0 z-10">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <a href="#">
