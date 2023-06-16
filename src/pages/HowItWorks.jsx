@@ -7,7 +7,7 @@ import phone_step_03 from "../assets/app/app-screen-3.png";
 
 const HowItWorks = () => {
   return (
-    <div id="howItWorks" className="max-w-[1200px] mx-auto my-[9rem]">
+    <div id="howItWorks" className="max-w-[1200px] mx-auto mt-[2rem] mb-[5rem]">
       <h2 className="uppercase text-primaryColor text-lg pl-[2rem] pb-[1rem]">
         How it works
       </h2>
