@@ -33,7 +33,7 @@ const Pricing = () => {
 
           <button className="mt-[4rem]">
             <a
-              className="py-4 px-5 rounded-lg text-white hover:bg-shadeColor transition-all duration-500 ease-in-out bg-primaryColor"
+              className="py-4 px-5 rounded-lg text-white hover:bg-shadeColor transition-all duration-500 ease-in-out bg-primaryColor font-medium text-lg"
               href="#contact"
             >
               Start eating well
@@ -66,7 +66,7 @@ const Pricing = () => {
 
           <button className="mt-[4rem]">
             <a
-              className="py-4 px-5 rounded-lg text-white hover:bg-shadeColor transition-all duration-500 ease-in-out bg-primaryColor"
+              className="py-4 px-5 rounded-lg text-white hover:bg-shadeColor transition-all duration-500 ease-in-out bg-primaryColor font-medium text-lg"
               href="#contact"
             >
               Start eating well

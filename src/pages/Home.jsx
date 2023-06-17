@@ -28,7 +28,7 @@ const Home = () => {
         <div className="flex justify-center items-center gap-4 py-4 xs:py-[3rem] md:ml-5">
           <button>
             <a
-              className="bg-primaryColor hover:bg-shadeColor transition-all duration-500 ease-in-out text-white py-3 px-2 rounded-lg font-medium"
+              className="bg-primaryColor hover:bg-shadeColor transition-all duration-500 ease-in-out text-white py-3 px-2 rounded-lg text-lg font-medium"
               href="#contact"
             >
               Start eating well again
@@ -36,7 +36,7 @@ const Home = () => {
           </button>
           <button>
             <a
-              className="bg-white  hover:text-primaryColor transition-all duration-500 ease-in-out py-3 px-2 rounded-lg font-medium"
+              className="bg-white  hover:text-primaryColor transition-all duration-500 ease-in-out py-3 px-2 rounded-lg font-medium text-lg"
               href="#howItWorks"
             >
               Learn more ↓

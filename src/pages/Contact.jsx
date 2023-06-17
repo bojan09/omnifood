@@ -6,27 +6,37 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className=" xs:w-[90vw] flex xs:flex-col-reverse rounded-lg mx-auto"
+      className=" xs:w-[90vw] flex xs:flex-col-reverse rounded-lg mx-auto bg-secondaryColor"
     >
-      <div>
+      <div className="m-6">
         {/* Left container - Form*/}
-        <h1>Get your first meal for free!</h1>
-        <p>
+        <h1 className="text-3xl font-medium my-6">
+          Get your first meal for free!
+        </h1>
+        <p className="font-light text-md my-6">
           Healthy, tasty and hassle-free meals are waiting for you. Start eating
           well today. You can cancel or pause anytime. And the first meal is on
           us!
         </p>
-        <form>
-          <label>Full Name</label>
-          <input type="text" placeholder="John Smith" />
-          <label>Email adress</label>
-          <input type="email" placeholder="john@smith.com" />
-          <label>Where did you hear from us?</label>
+        <form className="flex flex-col gap-2 font-sm text-lg">
+          <label className="ml-2">Full Name</label>
+          <input
+            className="p-2 rounded-lg bg-primaryBackground"
+            type="text"
+            placeholder="John Smith"
+          />
+          <label className="ml-2 mt-3">Email adress</label>
+          <input
+            className="p-2 rounded-lg bg-primaryBackground"
+            type="email"
+            placeholder="john@smith.com"
+          />
+          <label className="ml-2 mt-3">Where did you hear from us?</label>
           <select
+            className="p-2 rounded-lg bg-primaryBackground"
             name="Where did you hear from us?"
             placeholder="Please choose one option"
             required
-            className=""
           >
             <option value="" disabled defaultChecked hidden>
               Please choose one option:
@@ -38,17 +48,18 @@ const Contact = () => {
             <option value="other">Other</option>
           </select>
 
-          <button type="submit">Sign up now</button>
+          <button
+            className=" bg-shadeColor py-3 rounded-md my-6 hover:bg-primaryColor text-white font-medium transition-all duration-500 ease-in-out"
+            type="submit"
+          >
+            Sign up now
+          </button>
         </form>
       </div>
 
-      {/* Right container - Image*/}
-      <div className="bg-red-200 z-10">
-        <img
-          src={formImage}
-          alt="formImage"
-          className=" rounded-t-lg bg-primaryColor backdrop-brightness-50"
-        />
+      {/* Right container - Image */}
+      <div>
+        <img src={formImage} alt="formImage" className=" rounded-t-lg" />
       </div>
     </div>
   );
