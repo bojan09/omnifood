@@ -49,7 +49,7 @@ const Contact = () => {
           </select>
 
           <button
-            className=" bg-shadeColor py-3 rounded-md my-6 hover:bg-primaryColor text-white font-medium transition-all duration-500 ease-in-out"
+            className=" bg-darkColor py-3 rounded-md my-6 hover:bg-primaryColor text-white font-medium transition-all duration-500 ease-in-out"
             type="submit"
           >
             Sign up now
