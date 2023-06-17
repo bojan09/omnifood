@@ -3,7 +3,7 @@ import React from "react";
 const Pricing = () => {
   return (
     <div id="pricing">
-      <div className="md:w-[1200px] md:mx-auto xs:ml-6 pt-[6rem] pb-[2rem]">
+      <div className="md:w-[900px] lg:w-[1200px] md:mx-auto xs:ml-6 pt-[6rem] pb-[2rem]">
         <h2 className="uppercase text-primaryColor text-lg">Pricing</h2>
         <h1 className="py-4 md:text-[2.6rem] md:my-3 text-3xl font-medium ">
           Eating well without breaking the bank
@@ -11,9 +11,9 @@ const Pricing = () => {
       </div>
 
       {/* Main - Container*/}
-      <div className="md:flex justify-center items-center md:w-[40vw] mx-auto">
+      <div className="md:flex justify-center items-center md:w-[80vw] lg:w-[50vw] mx-auto">
         {/* Starter - Container*/}
-        <div className="border-[2px] border-secondaryBackground rounded-xl flex flex-col justify-center items-center xs:w-[85vw] md:w-[350px] p-[3rem] mb-[4rem] mx-auto">
+        <div className="border-[2px] border-secondaryBackground rounded-xl flex flex-col justify-center items-center xs:w-[85vw] md:w-[350px] px-[3rem] py-[4rem] mb-[4rem] mx-auto">
           <h1 className="uppercase text-primaryColor text-xl font-medium">
             Starter
           </h1>

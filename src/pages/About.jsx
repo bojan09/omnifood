@@ -47,7 +47,7 @@ const About = () => {
         Prices include all applicable taxes. You can cancel at any time. Both
         plans include the following:
       </h1>
-      <div className="md:flex justify-center items-center w-[50vw] gap-6 mx-auto">
+      <div className="lg:flex justify-center items-center w-[50vw] gap-6 mx-auto">
         {prices.map((price) => (
           <div className="flex xs:flex-col justify-center items-center mx-auto my-[2.5rem]">
             <img

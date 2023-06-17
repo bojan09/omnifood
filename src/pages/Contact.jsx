@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className=" xs:w-[90vw] flex xs:flex-col-reverse rounded-lg mx-auto bg-secondaryColor"
+      className=" xs:w-[90vw] md:w-[82vw] lg:w-[60vw] lg:h-[60vh] flex md:flex-row xs:flex-col-reverse rounded-lg mx-auto bg-gradient-to-br from-primaryColor to-secondaryColor"
     >
       <div className="m-6">
         {/* Left container - Form*/}
@@ -18,48 +18,65 @@ const Contact = () => {
           well today. You can cancel or pause anytime. And the first meal is on
           us!
         </p>
-        <form className="flex flex-col gap-2 font-sm text-lg">
-          <label className="ml-2">Full Name</label>
-          <input
-            className="p-2 rounded-lg bg-primaryBackground"
-            type="text"
-            placeholder="John Smith"
-          />
-          <label className="ml-2 mt-3">Email adress</label>
-          <input
-            className="p-2 rounded-lg bg-primaryBackground"
-            type="email"
-            placeholder="john@smith.com"
-          />
-          <label className="ml-2 mt-3">Where did you hear from us?</label>
-          <select
-            className="p-2 rounded-lg bg-primaryBackground"
-            name="Where did you hear from us?"
-            placeholder="Please choose one option"
-            required
-          >
-            <option value="" disabled defaultChecked hidden>
-              Please choose one option:
-            </option>
-            <option value="friends and family">Friends and family</option>
-            <option value="twitter">Twitter</option>
-            <option value="instagram">Instagram</option>
-            <option value="facebook">Facebook</option>
-            <option value="other">Other</option>
-          </select>
+        <form className="font-sm text-lg">
+          <div className="md:flex items-center justify-center gap-2">
+            <div className="">
+              <label className="ml-2">Full Name</label>
+              <input
+                className="p-2 my-3 w-full rounded-lg bg-primaryBackground"
+                type="text"
+                placeholder="John Smith"
+              />
+            </div>
 
-          <button
-            className=" bg-darkColor py-3 rounded-md my-6 hover:bg-primaryColor text-white font-medium transition-all duration-500 ease-in-out"
-            type="submit"
-          >
-            Sign up now
-          </button>
+            <div className="xs:my-3 md:m-0">
+              <label className="ml-2">Email adress</label>
+              <input
+                className="p-2 my-3 w-full rounded-lg bg-primaryBackground"
+                type="email"
+                placeholder="john@smith.com"
+              />
+            </div>
+          </div>
+
+          <div className="md:flex gap-3 items-center justify-center">
+            <div className="mt-3 flex-1">
+              <label className="ml-2">Where did you hear from us?</label>
+              <select
+                className="p-2 my-3 w-full rounded-lg bg-primaryBackground"
+                name="Where did you hear from us?"
+                placeholder="Please choose one option"
+                required
+              >
+                <option value="" disabled defaultChecked hidden>
+                  Please choose one option:
+                </option>
+                <option value="friends and family">Friends and family</option>
+                <option value="twitter">Twitter</option>
+                <option value="instagram">Instagram</option>
+                <option value="facebook">Facebook</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div className="flex-1 mt-9 text-center">
+              <button
+                className=" bg-darkColor  rounded-md hover:bg-shadeColor hover:border-[2px] border-yellow-100 text-white font-medium transition-all duration-200 ease-in-out py-[.4rem] xs:px-6 md:px-[5rem]"
+                type="submit"
+              >
+                Sign up now
+              </button>
+            </div>
+          </div>
         </form>
       </div>
 
       {/* Right container - Image */}
-      <div>
-        <img src={formImage} alt="formImage" className=" rounded-t-lg" />
+      <div className="overflow-hidden">
+        <img
+          src={formImage}
+          alt="formImage"
+          className="xs:rounded-t-lg md:rounded-tl-none md:rounded-tr-lg md:rounded-br-lg h-fit bg-cover bg-center"
+        />
       </div>
     </div>
   );
